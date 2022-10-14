@@ -3,4 +3,9 @@ layout:
 - go.kubebuilder.io/v3
 projectName: virtualservice-admission-webhook
 repo: github.com/rnakamine/virtualservice-admission-webhook
+resources:
+- domain: rnakamine.com
+  group: networking.istio.io
+  kind: VirtualService
+  version: v1alpha3
 version: "3"
