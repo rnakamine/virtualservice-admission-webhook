@@ -1,0 +1,6 @@
+domain: rnakamine.com
+layout:
+- go.kubebuilder.io/v3
+projectName: virtualservice-admission-webhook
+repo: github.com/rnakamine/virtualservice-admission-webhook
+version: "3"
